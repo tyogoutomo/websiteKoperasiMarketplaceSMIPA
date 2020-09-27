@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Sign Up - Koperasi Marketplace SMIPA</title>
+        <link rel='stylesheet' type='text/css' media='screen' href='sign-up.css'>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body class="body">
+        <drop class="dropdown">
+            <button class="dropbtn"><img src="KITA.png" width="143px"></button>
+            <!-- <button class="dropbtn"><svg width="4em" height="3em" viewBox="0 0 26 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg></button> -->
+            <div class="dropdown-content">
+                <button class="dropbtn-hover">
+                    <img src="KITA.png" width="143px">
+                </button>
+                <div class="dropdown-space"></div>
+                <a id="dropdown-link" href="index.html" style="color:black; text-decoration:none;">Home</a>
+                <a id="dropdown-link" class="active" href="sign-up-landing-page.html" style="color:black; text-decoration:none;">My Account</a>
+                <a id="dropdown-link" href="shop.html" style="color:black; text-decoration:none;">Warung Smipa</a>
+                <a id="dropdown-link" href="#" style="color:black; text-decoration:none;">Warung Second Hand</a>
+                <a id="dropdown-link" href="#" style="color:black; text-decoration:none;">Library of Things</a>
+                <a id="dropdown-link" href="#" style="color:black; text-decoration:none;">Stories</a>
+                <a id="dropdown-link" href="faq.html" style="color:black; text-decoration:none;">FAQ</a>
+            </div>
+        </drop>
+
+        
+        <!-- This is where the body begins -->
+        <div class="row">
+            <div class="sign-up-header col-md-5">
+                sign up
+            </div>
+            <form class="sign-up-input-wrapper col-md-7">
+                <div class="sign-up-input-phone-number">
+                    <input type="number" placeholder="phone number">
+                </div>
+                <div class="sign-up-input-email-address">
+                    <input type="email" placeholder="email address">
+                </div>
+                <div class="sign-up-input-verification-code-wrapper">
+                    <input id="sign-up-input-verification-code" type="email" placeholder="verification code" class="hide">
+                </div>
+                <a href="sign-up">
+                    <button type="submit" class="sign-up-input-submit" type="button" onclick="onButtonClick()">submit</button>
+                </a>
+                <input type="button" name="answer" value="Show Text Field" onclick="onButtonClick()" />
+                <input class="hide" type="text" id="textInput" value="..." />
+                
+            </form>
+        </div>
+        <button onclick="myFunction()">Click Me</button>
+                <div id="myDIV">Hello</div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.innerHTML === "Hello") {
+                x.innerHTML = "Swapped text!";
+            } else {
+                x.innerHTML = "Hello";
+            }
+        }
+        // function onButtonClick(){
+        //     document.getElementById('sign-up-input-verification-code').className="show";
+        // }
+    </script>
+</body>
+</html>

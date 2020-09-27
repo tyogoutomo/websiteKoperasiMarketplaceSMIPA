@@ -1,0 +1,147 @@
+/* Dropdown Button------------ */
+.dropdown{
+    opacity: 100%;
+    font-size: 16px;
+    margin-top: 16px;
+    border-radius: 0px;
+    color: black;
+    background-color: transparent;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 5%; /* Full width */
+    display: block;
+    background-color: transparent;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    text-decoration: underline;
+    text-underline-position: below;
+    z-index: 0;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
+    z-index: 3;
+    margin-top: 10vh;
+    margin-left: -1px;
+    color: #000000;
+    background-color: #DAECD2;
+}
+.dropbtn {
+    /* background-color: #4CAF50; */
+    /* color: transparent; */
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 2%; /* Position the navbar at the top of the page */
+    margin-left: 1%;
+    width: 5%; /* Full width */
+    z-index: 2;
+    background: transparent;
+}
+.dropbtn-hover{
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 2%; /* Position the navbar at the top of the page */
+    margin-left: 1%;
+    width: 5%; /* Full width */
+    z-index: 2;
+    background: transparent;
+}
+.dropdown-content {
+    z-index: 3;
+    position: fixed; /* Set the navbar to fixed position */
+    top: -11vh; /* Position the navbar at the top of the page */
+    width: 60vh; /* Full width */
+    height: 100vh;
+    border: 1px solid #000000;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    position: static; /* Set the navbar to fixed position */
+    top: auto; /* Position the navbar at the top of the page */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.active{
+    /* background-color: #ddd; */
+
+    font-weight: 800;
+}
+.dropdown-space{
+    height: 20vh;
+}
+
+/* Body------------ */
+.body{
+    background-color: #DAECD2;
+}
+
+/* sign in header------------ */
+.sign-in-header{
+    font-size: 75px;
+    font-weight: 700;
+    /* margin-top: -3vh; */
+    left: 5%;
+    margin-top: 18%;
+}
+
+/* form------------ */
+form{
+    margin-top: 33vh;
+    left: -5%;
+    /* padding: 20%; */
+}
+form input{
+    position: relative;
+    display: block;
+
+    margin-top: 4%;
+    
+    border: none;
+    background: transparent;
+    border-bottom: none;
+    outline: none;
+
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+::placeholder {
+    color: black;
+    opacity: 60%;
+    font-size: 1.5em;
+}
+button{
+    
+}
+.sign-im-input-submit{
+    margin-top: 5%;
+    border: transparent;
+    background-color: transparent;
+
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sign-in-input-phone-number{
+    
+}
+.sign-in-input-email-address{
+
+}

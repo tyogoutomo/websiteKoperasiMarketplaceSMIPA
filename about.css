@@ -1,0 +1,75 @@
+/* Dropdown Button------------ */
+.dropdown{
+    opacity: 100%;
+    font-size: 16px;
+    margin-top: 16px;
+    border-radius: 0px;
+    color: black;
+    background-color: transparent;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 5%; /* Full width */
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    margin-top: 10vh;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+}
+.dropbtn {
+    /* background-color: #4CAF50; */
+    /* color: transparent; */
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 2; /* Position the navbar at the top of the page */
+    margin-left: 1%;
+    width: 5%; /* Full width */
+}
+.dropdown-content {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 5%; /* Full width */
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    position: static; /* Set the navbar to fixed position */
+    top: auto; /* Position the navbar at the top of the page */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.active{
+    background-color: #ddd;
+    font-weight: 800;
+}
+
+/* Our Goal ------------ */
+.about-ourgoal-wrapper{
+    
+}
+.about-ourgoal-header{
+    font-size: 60px;
+    width: 80%;
+    inline-size: 100%;
+    text-align: center;
+    font-weight: 700;
+}
